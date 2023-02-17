@@ -1,0 +1,20 @@
+.wide {
+    width: 100%;
+   /*border: 1px solid red !important;*/
+}
+.maxSiteWidth {
+    max-width: 1024px;
+    /*border: 1px solid green !important;*/
+}
+* {
+    /*font-family: sans-serif !important;*/
+}
+a {
+    text-decoration: none;
+}
+/* style css */
+html,body {
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
