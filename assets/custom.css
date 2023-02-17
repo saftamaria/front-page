@@ -1,20 +1,17 @@
 .wide {
-    width: 100%;
-   /*border: 1px solid red !important;*/
+  width: 100%;
 }
 .maxSiteWidth {
-    max-width: 1024px;
-    /*border: 1px solid green !important;*/
+  max-width: 1024px;
 }
-* {
-    /*font-family: sans-serif !important;*/
-}
+
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 /* style css */
-html,body {
-    overflow-x: hidden;
-    position: relative;
-    min-height: 100vh;
+html,
+body {
+  overflow-x: hidden;
+  position: relative;
+  min-height: 100vh;
 }
