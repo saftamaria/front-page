@@ -55,7 +55,7 @@ body {
   }
   
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
+    background-color: #222222;
   }
   
   .dropdown {
@@ -78,4 +78,24 @@ body {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+  }
+  
+  .navMenuWrapper{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .nav3{
+    display: table;
+    margin: 0 10px 0 auto;
+    table-layout: fixed;
+  }
+  .nav3 > li{
+    display: table-cell;
+    vertical-align: middle;
+  }
+  .nav3 > li > a{
+    display: block;
+    padding: 15px;
+    text-align: center;
+    color: #000;
   }
