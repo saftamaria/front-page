@@ -1,3 +1,13 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif, Arial;
+}
+a {
+  text-decoration: none !important;
+}
 .wide {
   width: 100%;
 }
@@ -17,11 +27,13 @@ body {
 }
 
 .headerWrapper{
-    position: fixed;
-    top: 0;
-    left: 0;
+    position: relative;
+    /* top: 0; */
+    /* left: 0; */
     width: 100%;
-  
+    background:#A43933;
+    color: #fff !important;
+    margin: 0;
 }
 .header{
     position: relative;
@@ -29,46 +41,63 @@ body {
     width: 100%;
     margin: 0 auto;
 }
-.nav1{
+.headerRow1{
     display: table;
-    table-layout: fixed;
-    margin: 40px 0 auto;
-    
+    /* table-layout: fixed; */
+    /* margin: 40px 0 auto; */
+    width: 100%;
+    position: relative;
 }
-.row1{
-    margin: 0 12em 0  auto;
+.breadcrumb{
+    /* margin: 0 12em 0  auto; */
+    display: table-cell;
 }
-.row2{
-    margin: 0 10px 0  auto;
+.loginWrapper{
+    /* margin: 0 10px 0  auto; */
     display: table-cell;
     vertical-align: middle;
+    text-align: right;
 }
 
-.nav2{
+.headerRow2{
     display: table;
     vertical-align: middle;
-    margin: 20px 0 auto;
+    margin: 0;
+    width: 100%;
 }
 
 .logoWrapper,
 .navSearch,
-.contactNR,
-.nr2,
-.buy{
+.headerContact,
+.headerCart {
     display: table-cell;
-    margin: 0 10px 0 auto;
-    table-layout: fixed;
+    /* margin: 0 10px 0 auto; */
+    /* table-layout: fixed; */
+    vertical-align: middle;
+}
+.navSearch {
+  vertical-align: middle; 
+}
+.contactPhoneIcon,
+.phones1,
+.phones2 {
+  display: inline-block;
+  vertical-align: middle;
 }
 
-
   .navMenuWrapper{
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
+    background: #BD5049;
   }
   .nav3{
     display: table;
-    margin: 0 10px 0 auto;
-    table-layout: fixed;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+  }
+  .productCategoriesNavWrapper {
+    background: #000;
   }
   .nav3 > li{
     display: table-cell;
@@ -76,9 +105,10 @@ body {
   }
   .nav3 > li > a{
     display: block;
-    padding: 15px;
+    padding: 15px 0;
     text-align: center;
-    color: #000;
+    color: #fff;
+    position: relative;
   }
 
   .productWrapper{
@@ -86,12 +116,24 @@ body {
     table-layout: fixed;
   }
   .productImage,
-  .detailsProduct{
+  .detailsProduct {
     display: table-cell;
     vertical-align: middle;
+    position: relative;
+  }
+  .productImage {
+    width: 460px;
+    padding: 20px;
+  }
+  .productImage img {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+  }
+  .detailsProduct {
     padding: 30px;
   }
- 
   .carouselWrapper{
     position: relative;
     text-align: center;
@@ -110,3 +152,9 @@ body {
     margin: 0 35px;
   }
 
+.productWrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+}
