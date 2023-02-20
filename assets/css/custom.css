@@ -71,8 +71,6 @@ body {
 .headerContact,
 .headerCart {
     display: table-cell;
-    /* margin: 0 10px 0 auto; */
-    /* table-layout: fixed; */
     vertical-align: middle;
 }
 .navSearch {
@@ -114,6 +112,10 @@ body {
   .productWrapper{
     display: table;
     table-layout: fixed;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
   }
   .productImage,
   .detailsProduct {
@@ -135,26 +137,27 @@ body {
     padding: 30px;
   }
   .carouselWrapper{
-    position: relative;
-    text-align: center;
-  }
-  .carouselItems{
-    padding: 35px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-  }
-  .box{
-    padding: 35px;
-    display: inline-block;
+    display: table;
     vertical-align: middle;
-    text-align: center;
-    margin: 0 35px;
+    table-layout: fixed;
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    position: relative;
   }
 
-.productWrapper {
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto;
+.carouselInnerOne,
+.carouselInnerTwo,
+.carouselInnerThree,
+.carouselInnerFour{
+  display: table-cell;
   position: relative;
+  vertical-align: middle;
 }
+
+.carouselIcon,
+.carouselDetails {
+    display: inline-block;
+    vertical-align: middle;
+}
+
