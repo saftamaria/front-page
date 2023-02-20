@@ -92,4 +92,21 @@ body {
     padding: 30px;
   }
  
+  .carouselWrapper{
+    position: relative;
+    text-align: center;
+  }
+  .carouselItems{
+    padding: 35px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .box{
+    padding: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 35px;
+  }
 
