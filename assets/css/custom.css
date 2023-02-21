@@ -180,6 +180,49 @@ body {
   padding: 10px 0;
   margin-top: 20px;
 }
+.tableInfo{
+  display: table;
+  position: relative;
+  max-width: 1024px;
+  width: 100%;
+  vertical-align: middle;
+  margin:0 auto;
+  padding: 20px 0 0 20px;
+}
+.tableInfoProduct{
+display: table-cell;
+}
+
+.title{
+  font-size: 24px;
+  font-weight: bold;
+}
+.listSpecifications,
+.listDetails{
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+ padding: 10px 0;
+}
+
+.boxInfoOne li p,
+.boxInfoTwo li p{
+  display: inline-block;
+  width: 100%;
+  padding: 20px;
+  font-size: 15px;
+}
+
+#detailsInfo{
+  width: 100%;
+  margin-top: 10px;
+}
+#detailsInfo td {
+  padding: 15px;
+}
+
+#detailsInfo tr:nth-child(even){background-color: #f2f2f2;}
+#detailsInfo tr:hover(even){background-color: #ddd;}
 
 
 
