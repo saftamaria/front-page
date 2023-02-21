@@ -178,7 +178,7 @@ body {
   margin: 0 auto;
   max-width: 1024px;
   padding: 10px 0;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 .tableInfo{
   display: table;
@@ -223,6 +223,40 @@ display: table-cell;
 
 #detailsInfo tr:nth-child(even){background-color: #f2f2f2;}
 #detailsInfo tr:hover(even){background-color: #ddd;}
+
+.infoContainer{
+  position: relative;
+  width: 100%;
+  margin:0 auto;
+  max-width: 1024px;
+  padding: 30px;
+}
+
+.body4Wrapper{
+  display: table;
+  position: relative;
+  max-width: 1024px;
+  width: 100%;
+  vertical-align: middle;
+  margin: 0 auto;
+  padding: 20px 0 0 20px;
+}
+.body4{
+  display: table-cell;
+}
+
+#body4Text, th{
+  text-align: right;
+}
+.body5{
+  position: relative;
+  margin:0 auto;
+  max-width: 1024px;
+  vertical-align: middle;
+  padding: 20px;
+}
+
+
 
 
 
