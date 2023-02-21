@@ -136,14 +136,29 @@ body {
   .detailsProduct {
     padding: 30px;
   }
-  .carouselWrapper{
+
+
+
+
+
+  .productDiscount{
     display: table;
-    vertical-align: middle;
-    table-layout: fixed;
+    position: relative;
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
+    padding: 0 0 20px 0;
+  }
+  .productDiscountList{
+    display: table-cell;
     position: relative;
+  }
+
+
+
+
+  .carouselWrapper{
+   
   }
 
 .carouselInnerOne,
@@ -159,5 +174,8 @@ body {
 .carouselDetails {
     display: inline-block;
     vertical-align: middle;
+    
 }
+
+
 
