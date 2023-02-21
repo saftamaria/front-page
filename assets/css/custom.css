@@ -266,18 +266,38 @@ display: table-cell;
   display: table;
   margin: 0 auto;
   max-width: 1024px;
-  width: 100%;
+  width: 80%;
   table-layout: fixed;
+  color: white;
 }
 
-.footerColumn{
+.footerColumnOne,
+.footerColumnTwo,
+.footerColumnOThree,
+.footerColumnFour{
   display: table-cell;
   margin: 0 35px;
   padding: 40px;
+  
 }
 
-.contactText{
+.titleText{
  font-size: 15px;
+ padding: 10px;
+ font-weight: bold;
+
+}
+.footerRow li{
+  margin: 20px 0;
+  vertical-align: top;
+  font-size: 12px;
+}
+.socialsIcons li{
+  display: inline;
+  vertical-align: middle;
+  text-align: center;
+  margin: 20px 10px;
+  font-size: 18px;
 }
 
 
