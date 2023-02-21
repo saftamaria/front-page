@@ -43,17 +43,13 @@ body {
 }
 .headerRow1{
     display: table;
-    /* table-layout: fixed; */
-    /* margin: 40px 0 auto; */
     width: 100%;
     position: relative;
 }
 .breadcrumb{
-    /* margin: 0 12em 0  auto; */
     display: table-cell;
 }
 .loginWrapper{
-    /* margin: 0 10px 0  auto; */
     display: table-cell;
     vertical-align: middle;
     text-align: right;
@@ -137,10 +133,6 @@ body {
     padding: 30px;
   }
 
-
-
-
-
   .productDiscount{
     display: table;
     position: relative;
@@ -149,16 +141,19 @@ body {
     margin: 0 auto;
     padding: 0 0 20px 0;
   }
-  .productDiscountList{
+  .productDiscountImg,
+  .productText,
+  .productButton{
     display: table-cell;
     position: relative;
   }
 
-
-
-
   .carouselWrapper{
-   
+   display: table;
+   width: 100%;
+   max-width: 1024px;
+   position: relative;
+   margin: 0 auto;
   }
 
 .carouselInnerOne,
@@ -173,8 +168,17 @@ body {
 .carouselIcon,
 .carouselDetails {
     display: inline-block;
-    vertical-align: middle;
-    
+    vertical-align: middle;   
+}
+
+.blankSpace{
+  position: relative;
+  width: 100%;
+  background-color: #000;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 10px 0;
+  margin-top: 20px;
 }
 
 
