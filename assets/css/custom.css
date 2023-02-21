@@ -2,6 +2,7 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-family: sans-serif, Arial;
 }
@@ -112,6 +113,7 @@ body {
     max-width: 1024px;
     margin: 0 auto;
     position: relative;
+    background-color: white;
   }
   .productImage,
   .detailsProduct {
@@ -256,7 +258,26 @@ display: table-cell;
   padding: 20px;
 }
 
+.footerWrapper{
+  position: relative;
+  background-color: rgb(16, 21, 31);
+}
+.footer{
+  display: table;
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+  table-layout: fixed;
+}
 
+.footerColumn{
+  display: table-cell;
+  margin: 0 35px;
+  padding: 40px;
+}
 
+.contactText{
+ font-size: 15px;
+}
 
 
