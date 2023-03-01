@@ -111,22 +111,34 @@ body {
     table-layout: fixed;
     width: 100%;
     max-width: 1024px;
-    margin: 0 auto;
+    margin: 40px auto;
     position: relative;
     background-color: white;
   }
-  .detailsProduct h1 p{
-    padding: 10px;
+  .allProductInfo{
+    display: table-cell;
+    position: relative;
   }
-  
+
   .productImage,
-  .detailsProduct,
+  .detailsProduct h1{
+    display: table-cell;
+   vertical-align: middle;
+   position: relative;
+   font-weight: 600;
+   font-size: 20px;
+  }
+  .orderInfo{
+    display: inline-block;
+    position: relative;
+  }
   .priceBox,
   .buttonComands{
     display: table-cell;
-    vertical-align: middle;
-    position: relative;
-    margin: 10px 5px 10px 5px;
+  }
+  #color{
+    padding: 2px 40px;
+    background-color: rgb(224, 224, 224);
   }
   .adauga{
     display: block; 
@@ -159,9 +171,6 @@ body {
     height: auto;
     margin: 0 auto;
     position: relative;
-  }
-  .detailsProduct {
-    padding: 30px;
   }
 
   .productDiscount{
@@ -211,36 +220,31 @@ body {
   padding: 10px 0;
   margin-top: 10px;
 }
+
 .tableInfo{
   display: table;
   position: relative;
   max-width: 1024px;
   width: 100%;
   vertical-align: middle;
-  margin:0 auto;
-  padding: 20px 0 0 20px;
+  margin: 10px auto;
 }
 .tableInfoProduct{
 display: table-cell;
 }
 
-.title{
-  font-size: 24px;
-  font-weight: bold;
-}
 .listSpecifications,
 .listDetails{
   display: table-cell;
   position: relative;
   vertical-align: middle;
- padding: 10px 0;
 }
 
 .boxInfoOne li p,
 .boxInfoTwo li p{
   display: inline-block;
   width: 100%;
-  padding: 20px;
+  margin: 10px 5px;
   font-size: 15px;
 }
 
