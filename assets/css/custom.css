@@ -140,10 +140,10 @@ body {
   .priceBox p {
     padding: 5px 5px;
   }
-  strong { 
+  strong{
     font-weight: bold;
   }
-
+ 
   #color{
     padding: 2px 40px;
     background-color: rgb(224, 224, 224);
@@ -171,13 +171,14 @@ body {
     color:rgb(105, 105, 105);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 30px auto;
+    
+
   }
   .productImage {
     width: 460px;
     padding: 20px;
   }
   .productImage img {
-
     width: 90%;
     height: auto;
     margin: 0 auto;
@@ -190,13 +191,35 @@ body {
     width: 100%;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 0 0 20px 0;
   }
   .productDiscountImg,
   .productText,
-  .productButton{
+  .productButton,
+  .wrappText{
     display: table-cell;
     position: relative;
+    color: white;
+  }
+  .productInner{
+  width: 460px;
+  padding: 20px;
+  }
+  .wrappText{
+    background-color: #000;
+    display: block;
+  }
+  .productText p {
+    font-size: 30px;
+    text-align: left;
+    margin: 25px auto;
+  }
+  .buttonStyle{
+    padding: 10px 30px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 40px;
   }
 
   .carouselWrapper{
