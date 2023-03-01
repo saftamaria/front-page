@@ -115,11 +115,40 @@ body {
     position: relative;
     background-color: white;
   }
+  .detailsProduct h1 p{
+    padding: 10px;
+  }
+  
   .productImage,
-  .detailsProduct {
+  .detailsProduct,
+  .priceBox,
+  .buttonComands{
     display: table-cell;
     vertical-align: middle;
     position: relative;
+    margin: 10px 5px 10px 5px;
+  }
+  .adauga{
+    display: block; 
+    background-color: #e23427;
+    color: white;
+    font-size: 15px;
+    padding: 14px 50px;
+    border: #ddd;
+    border-radius: 5px;
+  }
+  .comanda{
+    background-color: #000;
+    color: white;
+    font-size: 15px;
+    padding: 14px 50px;
+    border: #ddd;
+    border-radius: 5px;
+  }
+  .description{
+    font-size: 13px;
+    color:rgb(77, 77, 77);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
   .productImage {
     width: 460px;
