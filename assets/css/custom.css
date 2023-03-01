@@ -135,7 +135,15 @@ body {
   .priceBox,
   .buttonComands{
     display: table-cell;
+    padding:0 55px 0 20px;
   }
+  .priceBox p {
+    padding: 5px 5px;
+  }
+  strong { 
+    font-weight: bold;
+  }
+
   #color{
     padding: 2px 40px;
     background-color: rgb(224, 224, 224);
@@ -145,28 +153,31 @@ body {
     background-color: #e23427;
     color: white;
     font-size: 15px;
-    padding: 14px 50px;
+    padding: 10px 55px;
     border: #ddd;
     border-radius: 5px;
+    margin:20px auto;
   }
   .comanda{
     background-color: #000;
     color: white;
     font-size: 15px;
-    padding: 14px 50px;
+    padding: 10px 48px;
     border: #ddd;
     border-radius: 5px;
   }
   .description{
-    font-size: 13px;
-    color:rgb(77, 77, 77);
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color:rgb(105, 105, 105);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 30px auto;
   }
   .productImage {
     width: 460px;
     padding: 20px;
   }
   .productImage img {
+
     width: 90%;
     height: auto;
     margin: 0 auto;
