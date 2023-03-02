@@ -224,26 +224,38 @@ body {
 
   .carouselWrapper{
    display: table;
-   width: 100%;
    max-width: 1024px;
-   position: relative;
    margin: 0 auto;
   }
+
 
 .carouselInnerOne,
 .carouselInnerTwo,
 .carouselInnerThree,
 .carouselInnerFour{
   display: table-cell;
-  position: relative;
-  vertical-align: middle;
+  padding: 50px 10px 5px 0;
 }
 
 .carouselIcon,
 .carouselDetails {
-    display: inline-block;
-    vertical-align: middle;   
+    display: table-cell;
+    vertical-align: middle; 
+    background-color: rgb(98, 98, 98);
+    color: white; 
 }
+
+.carouselDetails li {
+  font-size: 13px;
+  margin: 10px 5px 10px 10px;
+  font-weight: bold;
+  
+  }
+ .carouselDetails li p{
+  font-size: 12px;
+}
+
+
 
 .blankSpace{
   position: relative;
